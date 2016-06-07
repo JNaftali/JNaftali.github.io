@@ -1,3 +1,55 @@
 body {
-  background: blue;
+  min-width: 420px;
+}
+
+@media (max-width: 420px) {
+  body {
+    background-color: hsl(120, 60%, 70%);
+  }
+}
+
+img {
+  display: block;
+  margin: 5px;
+  width: 90%
+}
+
+article {
+  border: 1px solid lightgray;
+  padding-left: 10px;
+}
+
+header {
+  text-align: center;
+}
+
+#experience-table {
+  position: relative;
+  display: inline-block;
+}
+
+#experience-table div {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(dancers.png);
+  background-size: 100%;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+ul li {
+  font-family: fantasy;
+}
+
+.basic_info {
+  font-style: oblique;
+}
+
+a:visited {
+  color: hsl(210, 100%, 30%);
 }
