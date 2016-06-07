@@ -50,6 +50,10 @@ ul li {
   font-style: oblique;
 }
 
+.basic_info img {
+  max-width: 500px;
+}
+
 a:visited {
   color: hsl(210, 100%, 30%);
 }
