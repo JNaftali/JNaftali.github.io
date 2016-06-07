@@ -1,6 +1,17 @@
+body {
+  min-width: 420px;
+}
+
+@media (max-width: 420px) {
+  body {
+    background-color: hsl(120, 60%, 70%);
+  }
+}
+
 img {
   display: block;
   margin: 5px;
+  width: 90%
 }
 
 article {
